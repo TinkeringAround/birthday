@@ -1,0 +1,72 @@
+/* Colors */
+:root {
+    --orange: #ef441c;
+    --red: #ec2e32;
+    --pink: #e7075c;
+    --green: #9aecc8;
+    --blue: #00088d;
+
+    --grey: rgb(232, 232, 232);
+    --black: #444;
+
+    /* Effect Colors */
+    --green50: rgba(154, 236, 200, 0.5);
+
+    /* Gradient Colors  */
+    --gradient: linear-gradient(to bottom, var(--orange), var(--red), var(--pink));
+}
+
+html {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    position: relative;
+
+    height: 100vh;
+    width: 100%;
+
+    margin: 0;
+
+    font-size: 16px;
+    color: var(--black);
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+
+    cursor: default;
+}
+
+main {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+}
+
+

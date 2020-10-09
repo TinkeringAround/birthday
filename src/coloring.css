@@ -1,0 +1,17 @@
+/* Blue Palette */
+.blue {
+    background: var(--blue);
+    color: white;
+}
+
+/* Orange Palette */
+.orange {
+    background: var(--orange);
+    color: white;
+}
+
+/* Green Palette */
+.green {
+    background: var(--green);
+    color: white;
+}
