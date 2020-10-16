@@ -1,29 +1,12 @@
 .question {
     width: 100%;
+    height: auto;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     padding: 3rem 4rem;
-
-    will-change: height;
-    transition: height 0.5s ease-in-out;
-}
-
-.option {
-    margin: 3rem 0 0;
-
-    font-weight: bold;
-
-    opacity: 1;
-    will-change: opacity;
-    transition: opacity 0.5s ease-in-out 0.2s;
-}
-
-.question.collapsed .option {
-    opacity: 0;
-    transition: opacity 0.25s ease-in-out;
 }
 
 .option {
@@ -32,5 +15,23 @@
     width: 100%;
     margin: 1rem 1rem 1rem 2.5rem;
 
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.answers {
+    width: 100%;
+
+    margin: 5rem 1rem 1rem 2.5rem;
+
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.answers > h2 {
     font-size: 2.5rem;
+}
+
+.answer {
+    margin: 0.5rem 1rem 0.5rem 0;
 }

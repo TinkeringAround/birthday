@@ -1,19 +1,11 @@
 /* Colors */
 :root {
-    --orange: #ef441c;
-    --red: #ec2e32;
-    --pink: #e7075c;
-    --green: #9aecc8;
-    --blue: #00088d;
+    --red: #e63946;
+    --blue: #a8dadc;
+    --creme: #f1faee;
 
     --grey: rgb(232, 232, 232);
     --black: #444;
-
-    /* Effect Colors */
-    --green50: rgba(154, 236, 200, 0.5);
-
-    /* Gradient Colors  */
-    --gradient: linear-gradient(to bottom, var(--orange), var(--red), var(--pink));
 }
 
 html {
@@ -59,14 +51,4 @@ h1 {
     font-size: 4.5rem;
     font-weight: bold;
 }
-
-h2 {
-    font-size: 3.5rem;
-    font-weight: bold;
-}
-
-input {
-    outline: none;
-}
-
 
